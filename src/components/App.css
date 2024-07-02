@@ -1,0 +1,188 @@
+* {
+  color: white;
+  background: black;
+  font-family: "Montserrat", sans-serif;
+}
+#postContent {
+  background-color: black;
+  border: 0px;
+  width: 300px;
+}
+::placeholder {
+  color: rgb(145, 145, 145);
+  opacity: 1;
+}
+.center-container {
+  top: 0;
+  border: 1px solid gray;
+}
+.mr-main-guy-from-appjs {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+.post-form {
+  margin-left: 15px;
+}
+.post-box div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.post-box ul {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.post-box ul {
+  list-style: none;
+}
+.postImage {
+  border-radius: 15px;
+}
+nav {
+  position: fixed;
+  max-width: 200px;
+  margin-top: 24px;
+}
+nav p {
+  font-size: 18px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 32px;
+}
+.the-nav-bar {
+  width: 200px;
+}
+.tip-section {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tip-section button {
+  color: rgb(30, 30, 255);
+  border: 0px;
+}
+.tip-section button:hover {
+  color: rgb(0, 135, 197);
+}
+.post-author-icon {
+  border-radius: 50%;
+}
+
+.post-section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.just-for-that-button {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+input[type="text"]:focus {
+  outline: none;
+  /* Additional styling if needed */
+}
+
+.container {
+  margin-top: 100px;
+}
+.create-profile-outer-div {
+  border: 1px solid gray;
+  height: fit-content;
+  width: 500px;
+}
+.form-group {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.name-on-createprof {
+  margin: 3px;
+  font-size: 18px;
+}
+
+.button-from-createprof {
+  display: flex;
+  justify-content: center;
+}
+.top-bar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+.top-bar p {
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.top-bar li {
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+.whole {
+  display: flex;
+  flex-direction: column;
+}
+.postPage {
+  border: 1px solid gray;
+  padding-top: 10px;
+}
+.postPage {
+  margin-top: 2rem;
+}
+.commentForm {
+  border-bottom: 1px solid gray;
+}
+.commentBox {
+  color: white;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border-top: 1px solid gray;
+}
+.commentContent {
+  padding-left: 2rem;
+}
+.search-form {
+  margin-left: 50px;
+  margin-bottom: 6px;
+}
+.search-form input {
+  border: 1px solid gray;
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 17px;
+  padding-left: 30px;
+  width: 300px;
+  background-image: url("../icons8-search-24.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.search-form input[type="text"]:focus {
+  outline-color: blue;
+}
+.search-posts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.search-feed {
+  width: 300px;
+  margin-left: 50px;
+  height: auto;
+  max-height: 500px;
+  overflow: hidden;
+  box-shadow: -1px 0px 5px 6px rgb(156, 156, 156, 0.2);
+}
